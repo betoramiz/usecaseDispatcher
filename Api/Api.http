@@ -1,0 +1,5 @@
+@Api_HostAddress = http://localhost:7173
+
+GET {{Api_HostAddress}}/api/todo/
+Accept: application/json
+
