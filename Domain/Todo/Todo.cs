@@ -1,4 +1,6 @@
-﻿namespace Domain;
+﻿using Domain.Common;
+
+namespace Domain.Todo;
 
 public class Todo
 {
@@ -13,5 +15,8 @@ public class Todo
         Name = name;
     }
 
-    public static Todo Create(string name) => new Todo(name);
+    public static Todo Create(string name)
+    {
+        return new Todo(name);
+    }
 }
